@@ -8,18 +8,18 @@ Features
     Email extraction: The tool uses a case-insensitive regular expression to accurately and efficiently extract emails from files.
     Duplicate handling: It ensures there are no duplicate emails in the output files, offering a clean list of unique email addresses.
 
-**Usage
+Usage
 
-*The tool is a Python script, which can be run from the command line:
+The tool is a Python script, which can be run from the command line:
 
-**bash
+bash
 
-*python email_extractor.py -d /path/to/directory -o output
+python email_extractor.py -d /path/to/directory -o output
 
-**Here, -d or --directory is the directory to be scanned, and -o or --output is the base name for the output files.
+Here, -d or --directory is the directory to be scanned, and -o or --output is the base name for the output files.
 Dependencies
 
-**This tool uses the following Python libraries:
+This tool uses the following Python libraries:
 
     os
     re
@@ -27,11 +27,11 @@ Dependencies
     csv
     chardet
 
-**To install the required libraries, run:
+To install the required libraries, run:
 
-*bash
+bash
 
-*pip install chardet
+pip install chardet
 
 The other libraries are part of Python's standard library and should not require separate installation.
 Ethical Use
